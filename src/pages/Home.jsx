@@ -10,6 +10,9 @@ import introVideo from '../assets/intro.mp4'
 import introVideo2 from '../assets/intro2.mp4'
 import proof1 from '../assets/IMG_0175.jpeg'
 import proof2 from '../assets/IMG_0176.jpeg'
+import proof3 from '../assets/image3.jpg'
+import proof4 from '../assets/image4.jpg'
+import proof5 from '../assets/image5.jpg'
 
 export default function Home() {
     const [selectedProof, setSelectedProof] = useState(null);
@@ -86,6 +89,21 @@ export default function Home() {
             title: 'University Admission Letter',
             subtitle: 'Accepted into a top-ranked California institution with full support from our team.',
             image: proof2
+        },
+        {
+            title: 'University Admission Letter',
+            subtitle: 'Accepted into a top-ranked Canada institution with full support from our team.',
+            image: proof3
+        },
+        {
+            title: 'University Admission Letter',
+            subtitle: 'Accepted into a top-ranked U.S.A institution with full support from our team.',
+            image: proof4
+        },
+        {
+            title: 'University Admission Letter',
+            subtitle: 'Accepted into a top-ranked France institution with full support from our team.',
+            image: proof5
         },
         /** {
             title: 'Visa Approval Success',
