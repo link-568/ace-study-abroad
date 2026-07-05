@@ -79,12 +79,12 @@ export default function Home() {
     const admissionsProof = [
         {
             title: 'University Admission Letter',
-            subtitle: 'Accepted into a top-ranked UK institution with full support from our team.',
+            subtitle: 'Accepted into a top-ranked Canada institution with full support from our team.',
             image: proof1
         },
         {
-            title: 'Scholarship Award',
-            subtitle: 'Secured funding support for a student pursuing a postgraduate path abroad.',
+            title: 'University Admission Letter',
+            subtitle: 'Accepted into a top-ranked California institution with full support from our team.',
             image: proof2
         },
         /** {
