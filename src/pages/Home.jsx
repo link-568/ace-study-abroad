@@ -146,7 +146,7 @@ export default function Home() {
 
                         <div className="flex flex-wrap gap-3">
                             <Link to="/appointment" className="inline-flex items-center gap-2 rounded-full bg-blue-900 px-5 py-3 font-semibold text-white transition hover:bg-blue-800">
-                                Start your journey
+                                Book your consultation
                                 <LuArrowRight className="" />
                             </Link>
                             <Link to="/destinations" className="rounded-full border border-white/30 bg-white/10 px-5 py-3 font-semibold text-white backdrop-blur transition hover:bg-white/20">
