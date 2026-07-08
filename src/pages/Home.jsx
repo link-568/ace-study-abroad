@@ -198,6 +198,23 @@ export default function Home() {
                 </div>
             </section>
 
+            <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6 lg:px-8">
+                <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
+                    <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+                        <div>
+                            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-700">Certified excellence</p>
+                            <h2 className="mt-3 text-3xl font-semibold text-slate-900">Recognized and trusted by leading education bodies.</h2>
+                            <p className="mt-4 text-base leading-7 text-slate-600">
+                                ACE Study Abroad is committed to maintaining the highest standards of professionalism and student care. Our certified credentials reflect our dedication to delivering reliable guidance and ethical support.
+                            </p>
+                        </div>
+                        <div className="overflow-hidden rounded-[1.5rem] border border-slate-200 bg-slate-50 p-3 shadow-sm">
+                            <img src="/ace-cac.png" alt="ACE Study Abroad certification" className="h-full w-full rounded-[1rem] object-cover" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="mx-auto w-full max-w-7xl px-4 pb-8 sm:px-6 lg:px-8">
                 <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
                     <div>
