@@ -13,6 +13,7 @@ import proof2 from '../assets/IMG_0176.jpeg'
 import proof3 from '../assets/image3.jpg'
 import proof4 from '../assets/image4.jpg'
 import proof5 from '../assets/image5.jpg'
+import aceCac from '../../public/ace-cac.jpg'
 
 export default function Home() {
     const [selectedProof, setSelectedProof] = useState(null);
@@ -209,7 +210,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="overflow-hidden rounded-[1.5rem] border border-slate-200 bg-slate-50 p-3 shadow-sm">
-                            <img src="/ace-cac.png" alt="ACE Study Abroad certification" className="h-full w-full rounded-[1rem] object-cover" />
+                            <img src="/ace-cac.jpg" alt="ACE Study Abroad certification" className="h-full w-full rounded-[1rem] object-cover" />
                         </div>
                     </div>
                 </div>
